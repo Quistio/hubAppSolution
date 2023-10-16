@@ -49,6 +49,7 @@ img {
     border-top-right-radius: 15px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    min-width: 500px;
 }
 
 .row-app {
