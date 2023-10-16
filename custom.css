@@ -1,0 +1,94 @@
+body {
+    font-size: 20px;
+    background: rgb(115, 62, 140);
+    background: linear-gradient(41deg, rgba(115, 62, 140, 1) 0%, rgba(69, 149, 210, 1) 100%);
+    margin: 0;
+    font-family: 'Roboto-Regular';
+}
+
+img {
+    width: 500px;
+    filter: drop-shadow(5px 5px 5px rgba(31, 38, 135, 0.37));
+}
+
+.logo {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.main {
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.title {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #308787;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    padding: 5px;
+    font-size: 1em;
+}
+
+.relaction-app {
+    margin: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(17.5px);
+    -webkit-backdrop-filter: blur(17.5px);
+    display: block;
+    float: left;
+    color: #fff;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.row-app {
+    float: left;
+    width: 100%;
+}
+
+.row-app div {
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 0.7em;
+}
+
+
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px 50px 10px 50px;
+    color: rgb(233, 233, 233);
+    text-align: center;
+}
+
+th {
+    font-weight: 100;
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(233, 233, 233);
+}
+
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('Roboto-Regular.ttf');
+}
